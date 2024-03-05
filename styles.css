@@ -1,0 +1,110 @@
+body {
+    background-image: url('imagens/body.jpg');
+    background-size: cover; /* Para cobrir todo o background */
+    background-position: center; /* Para centralizar a imagem */
+    color: #fff; /* Define a cor do texto como branco */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor do texto */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Muda a cor do texto para amarelo ao passar o mouse */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adiciona um fundo semi-transparente */
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.portfolio-item img {
+    width: 150px; /* Define a largura da imagem como 100% */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+.portfolio-item p {
+    color: #fff; /* Define a cor do texto como branco */
+}
+
+.contato-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor do botão */
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
